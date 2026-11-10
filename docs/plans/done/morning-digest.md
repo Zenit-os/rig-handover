@@ -1,6 +1,6 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
 ---
@@ -77,3 +77,19 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+All from this plan, tagged `plan:morning-digest`, worked one worker per issue.
+
+| # | Title | State | Worker | Commit |
+|---|-------|-------|--------|--------|
+| 1 | Run log reader | closed | pi · claude-opus-latest (thinking=high) | bce6a86 |
+| 2 | Digest page: GET /digest/:night | closed | pi · claude-haiku-latest (thinking=medium) | 51e2678 |
+| 3 | Digest JSON: GET /api/digest/:night | closed | pi · claude-haiku-latest (thinking=medium) | 7e6349a |
+| 4 | Board link to digest | closed | pi · claude-haiku-latest (thinking=medium) | a4d2371 |
+| 5 | Route tests for page and JSON | closed | pi · claude-haiku-latest (thinking=medium) | 6b25feb |
+| 6 | Preview for review | closed | pi · glm-5.3 (thinking=high) | none |
+| 7 | Clean up | closed | pi · glm-5.3 (thinking=high) | this move |
+
+Preview: https://rig-handover-preview.l-barszcz97.workers.dev (uploaded without the lane marker, ADR 0003).
